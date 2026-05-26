@@ -22,8 +22,8 @@ test('can update a folder', async () => {
 })
 
 test('can get folder items', async () => {
-  const result = await folders(folderId, {}, { _name: 'getItems' })
-  
+  const result = await folders(folderId, {}, { _name: 'get-items' })
+
   expect(result).toHaveProperty('entries')
 })
 
